@@ -1,0 +1,88 @@
+.text-red{
+    color: red;
+}
+.local-meter{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-down{
+    width: 30%;
+    padding: 7px;
+    color: black;
+    background-color: #fff;
+    border: 2px solid #06d6a0;
+    transition: 0.5s;
+}
+.btn-down:hover{
+    background-color: #06d6a0;
+    color: #fff;
+}
+/******* data table styles *******/
+
+.data-table {
+	border: 1px solid #ebedef;
+    margin: 1rem;
+}
+
+.data-table .table > thead > tr > th {
+	border-width: 1 !important;
+	font-size: .75rem;
+	line-height: 2.1;
+}
+
+.data-table .table > tbody > tr > td,.data-table .table > tbody > tr > th,.data-table .table > tfoot > tr > td,.data-table .table > tfoot > tr > th,.data-table .table > thead > tr > td,.data-table .table > thead > tr > th {
+	padding: .625rem;
+	border-color: #ebedef;
+	vertical-align: middle;
+}
+
+.data-table .table-striped tbody tr:nth-of-type(odd),.data-table .table-hover tbody tr:hover {
+	background-color: #f8f8f8;
+}
+
+.data-table .vertical-bordered.table > tbody > tr > td,.data-table .vertical-bordered.table > tbody > tr > th,.data-table .vertical-bordered.table > tfoot > tr > td,.data-table .vertical-bordered.table > tfoot > tr > th,.data-table .vertical-bordered.table > thead > tr > td,.data-table .vertical-bordered.table > thead > tr > th {
+	border-right: 1px solid #ebedef;
+	border-top: none;
+}
+
+.data-table .vertical-bordered.table > tbody > tr > td:last-child,.data-table .vertical-bordered.table > tbody > tr > th:last-child,.data-table .vertical-bordered.table > tfoot > tr > td:last-child,.data-table .vertical-bordered.table > tfoot > tr > th:last-child,.data-table .vertical-bordered.table > thead > tr > td:last-child,.data-table .vertical-bordered.table > thead > tr > th:last-child {
+	border-right: none;
+}
+
+.data-table .vertical-bordered.table th,.data-table .vertical-bordered.table td {
+	border-top: none;
+}
+.table-striped th{
+    padding: 10px;
+    text-align: center !important;
+    font-size: 15px;
+}
+.table-striped td{
+  padding: 15px;
+  text-align: center;
+}
+.data-table .vertical-bordered > thead > tr > th {
+	border-width: 1px !important;
+}
+table th{
+    background-color: #06d6a0;
+    color: #fff;
+    border: 1px solid #ebedef;
+}
+.demo-wrapper h3{
+    margin-left: 1rem;
+}
+table tr:nth-child(even){background-color: #f2f2f2;}
+@media screen and (max-width:530px) {
+    .btn-down{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 576px) {
+	.data-table .table {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+	}
+}

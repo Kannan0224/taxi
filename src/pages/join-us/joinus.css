@@ -1,0 +1,93 @@
+/******* contact form styles *******/
+
+.waituk_contact-form {
+	margin-bottom: 1.25rem;
+}
+
+.waituk_contact-form .form-control {
+	letter-spacing: 0;
+	font-weight: 500;
+	color: #87888f
+}
+
+.waituk_contact-form .form-group {
+	margin-bottom: 1.875rem;
+}
+
+.waituk_contact-form ::-webkit-input-placeholder {
+	color: #87888f;
+}
+
+.waituk_contact-form :-moz-placeholder {
+	color: #87888f;
+}
+
+.waituk_contact-form ::-moz-placeholder {
+	color: #87888f;
+}
+
+.waituk_contact-form :-ms-input-placeholder {
+	color: #87888f;
+}
+
+.contact-confirmation {
+	margin-top: .7143rem;
+}
+.form-control {
+	border: .1429rem solid #f1f1f1;
+	background: none;
+	border-radius: 0;
+	color: #55565b;
+	height: 3rem;
+}
+
+.form-control:focus {
+	border-color: #c9cacd;
+	color: #55565b;
+	background: none;
+}
+
+.form-control.form-control-v1 {
+	border-width: 0 0 .1429rem;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+textarea.form-control {
+	padding-top: 1rem;
+	padding-bottom: .7143rem;
+	min-height: 180px;
+}
+
+input:focus::-webkit-input-placeholder,textarea:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+input:focus:-moz-placeholder,textarea:focus:-moz-placeholder {
+	color: transparent;
+}
+
+/* FF 4-18 */
+
+input:focus::-moz-placeholder,textarea:focus::-moz-placeholder {
+	color: transparent;
+}
+
+/* FF 19+ */
+
+input:focus:-ms-input-placeholder,textarea:focus:-ms-input-placeholder {
+	color: transparent;
+}
+.join-btn{
+    background-color: #06d6a0;
+    color: #fff;
+    width: 30%;
+}
+.join-btn:hover{
+    border: 2px solid #06d6a0;
+    color: #06d6a0;
+}
+.join-form{
+	padding: 2rem;
+	background-color: #fff;
+}

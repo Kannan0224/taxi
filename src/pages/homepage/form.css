@@ -1,0 +1,119 @@
+.booking-container{
+    position: absolute;
+    margin-left: 37px !important;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 90% !important;
+    height: 100vh;
+    text-align: center;
+    justify-content: center !important;
+}
+.model-container{
+    margin-top: 5rem !important;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #fff;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px !important;
+}
+.form-cars{
+    width: 200px;
+    margin-bottom: 150px !important;
+    border-radius: 0 !important;
+}
+.border-red{
+  border: 2px solid red !important;
+}
+.cars-name{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  /*   padding-left: 35px !important; */
+    /* width:inherit !important */
+}
+.form-con-span{
+    position: absolute;
+    font-size: 13px;
+    bottom: 0;
+    padding-left: 7px;
+    margin-bottom: 6px;
+    color: black;
+}
+.cars-container{
+    display: flex;
+    flex-direction: row;
+}
+.row-cars{
+    margin-left: 0 !important;
+    padding: 0 !important;
+}
+.input-con{
+    margin-top: 20px;
+}
+.button-59 {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-size: 16px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  min-width: 100px;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  touch-action: manipulation;
+}
+.button-59:hover {
+  border-color: #FFF;
+  background-color: #06d6a0;
+  color: #FFF;
+  border-radius: 10px;
+}
+.select-inp{
+  border: 2px solid #f1f1f1 ;
+  background: none;
+  border-radius: 0 !important;
+  color: #87888f !important;
+  font-weight: 500;
+  height: 3rem;
+  box-shadow: none;
+}
+.banner-form-sty input{
+  height: 2.7rem;
+}
+.banner-form-sty select{
+  height: 2.7rem;
+}
+.form-first-inp{
+  margin-top: 15px;
+}
+.form-btn{
+  width: 80%;
+  margin-bottom: 0 !important;
+}
+.f-group{
+  margin-bottom: 1.5rem;
+}
+.home-page-form{
+  margin-bottom: 0 !important;
+}
+.form-err-msg{
+  color: red;
+  font-size: 13px;
+}
+.form-err{
+  margin-bottom: 25px !important;
+}
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}

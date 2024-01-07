@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    list-style: none;
+}
+.nav-style{
+    width: 100%;
+    height: 70px;
+    background-color: #06d6a0;
+    position: fixed;
+    z-index: 100;
+}
+.nav-logo{
+    width: 140px;
+    height: 60px;
+    padding-top: 4px;
+}
+.nav-dis{
+    display: flex;
+    justify-content: space-around;
+}
+.li-style{
+    display: inline;
+    line-height: 70px !important;
+}
+.a-style{
+    padding-right: 35px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.humberger{
+    display: inline;
+    margin-top: -45px;
+    float: right;
+    display: none;
+    cursor: pointer;
+    color: #fff;
+}
+.cross-mark{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+/*------------------@media screen settings----------------------*/
+
+@media screen and (max-width:1100px) {
+    .ul-style{
+        position: absolute;
+        left: -120% !important; 
+    }
+    .slider{
+        left: 0;
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        height:100vh;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        background-color: #06d6a0;
+    }
+    .li-style{
+        display: block;
+        padding-left: 50px;
+    }
+    .li-one{
+        margin-top: 3rem;
+    }
+    .humberger{
+      display: block; 
+      position: absolute;
+      right: 0;
+      font-size: 25px;
+      padding-right: 30px;
+      top: 19px; 
+      margin-top: 0 !important;
+    }
+    .a-style{
+        font-size: 30px;
+    }
+    .cross-mark{
+        display: block;
+        padding: 23px;
+        font-size: 30px;
+        cursor: pointer;
+        color: #fff;
+}
+}

@@ -1,0 +1,136 @@
+.map-style{
+    height: 450px;
+    border: 0;
+    width: 100%;
+}
+/******* contact info styles *******/
+
+.contact-title {
+    padding-top: 2rem !important;
+	margin-bottom: 2.8125rem;
+}
+
+.info-slot {
+	margin-bottom: 1.875rem;
+	margin-top: 1.875rem;
+	color: #575757;
+	font-size: .75rem;
+}
+
+.info-slot .icon {
+	width: 4.286rem;
+	padding-right: .7143rem;
+	font-size: 3.571rem;
+	line-height: 1;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.info-slot .text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.info-slot address {
+	margin: 0;
+}
+
+.contact-list a {
+	color: #575757;
+}
+
+.contact-list a:hover {
+	color: #06dba0;
+}
+
+.contact-list li {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.contact-list .label-text {
+	display: inline-block;
+	width: 6.143rem;
+	text-transform: uppercase;
+}
+
+.map-holder {
+	width: 100%;
+}
+
+.map-holder iframe {
+	width: 100%;
+	display: block;
+	pointer-events: none;
+}
+
+.map-holder iframe.clicked {
+	pointer-events: auto;
+}
+.info-slot .icon{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.icon-head-set{
+    margin-right: 0 !important;
+}
+.btn-contact{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    border-radius: 0 !important;
+    background-color: #06dba0;
+    color: #fff;
+}
+.btn-contact:hover{
+    background-color: #fff;
+    color: #06dba0;
+    border: 2px solid #06dba0;
+}
+
+/******* social network styles *******/
+
+.social-network {
+	font-size: 1.25rem;
+	line-height: 1.2;
+}
+
+.social-network li {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0;
+	margin: 0 0 .5rem;
+}
+
+.social-network li:last-child {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.social-network a {
+	color: #55565b;
+}
+
+.social-network a:hover {
+	color: #06dba0;
+}
+.social-network a span {
+	-webkit-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
+}
+.contact-soc-ico{
+	margin-right: 20px;
+	font-size: 30px;
+	margin-bottom: 1rem;
+}
+.contact-para{
+	padding-top: 1rem;
+	text-align: center;
+}
+.contact-container a{
+	text-decoration: none;
+	color: #55565b;
+}
