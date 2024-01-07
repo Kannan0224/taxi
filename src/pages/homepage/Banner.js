@@ -1,7 +1,6 @@
 import React from 'react';
 import './banner.css'
 import Carousel from 'react-bootstrap/Carousel';
-import { car1, car2, car3 } from '../../assets/images/Image';
 import Form from './Form';
 
 function Banner() {

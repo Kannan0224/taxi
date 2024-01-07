@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { FaPhoneVolume,FaNotesMedical,FaWhatsapp,FaFacebook,FaCheck} from "react-icons/fa6";
-import { outstationimg1, outstationimg2, outstationimg3, outstationimg4, outstationimg5, outstationimg6, outstationimg7, outstationimg8, outstationimg9 } from '../../assets/images/Image';
 import "../package/package.css";
 import { packageData } from './Data';
 
@@ -112,8 +110,7 @@ function Package() {
                 return(
                       <div  className="col-md-6 col-lg-4">
                       <figure className="caption-hover-full">
-                        <a className="fancybox fancy-pop" href="#lightbox-description"></a>
-                        <div className="image-wrapper"><img src={data.src} className="img-fluid outs-img-sty" alt="Responsive image"/>
+                        <div className="image-wrapper"><img src={data.src} className="img-fluid outs-img-sty" alt="Responsive"/>
                           <div className=' image-text'><h2>{data.name}</h2></div>
                       </div>
                       <div className="image-details">

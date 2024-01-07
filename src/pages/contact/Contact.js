@@ -81,8 +81,8 @@ function Contact() {
                             <div className="contact-container">
                                 <p className='contact-para mb-0'>If you need anything from us, feel free to get in touch!</p><br/>
                                 <p className='text-center'>We are available 24/7</p>
-                                <p className='text-center'>Call Us @ <a href='#'>09876 456454</a></p>
-                                <p className='text-center'>Toll Free - <a href='#'>098 766 8456454</a></p>
+                                <p className='text-center'>Call Us @ <a href='#0'>09876 456454</a></p>
+                                <p className='text-center'>Toll Free - <a href='#0'>098 766 8456454</a></p>
                                 <h2 className="content-title contact-title text-center">SUGGESTIONS & COMPLAINTS</h2>
                                 <div className="row">
                                     <div className="col-lg-6">
@@ -153,9 +153,9 @@ function Contact() {
                                             <div className="icon icon-head-set"><span className="custom-icon-headset"><FaHeadset/></span></div>
                                             <div className="text">
                                                 <ul className="content-list contact-list">
-                                                    <li><span className="label-text">BOOKING</span> <a href="#">9077272773</a></li>
-                                                    <li><span className="label-text">WHATSAPP</span> <a href="#">9077272773</a></li>
-                                                    <li><span className="label-text">COMPLAINTS</span> <a href="#">9077272773</a></li>
+                                                    <li><span className="label-text">BOOKING</span> <a href="#0">9077272773</a></li>
+                                                    <li><span className="label-text">WHATSAPP</span> <a href="#0">9077272773</a></li>
+                                                    <li><span className="label-text">COMPLAINTS</span> <a href="#0">9077272773</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -163,9 +163,9 @@ function Contact() {
                                             <div className="icon icon-head-set"><span className="custom-icon-message"><LuMails/></span></div>
                                             <div className="text">
                                                 <ul className="content-list contact-list">
-                                                    <li><a href="#">mayacalltaxi@gmail.com</a></li>
-                                                    <li><a href="#">mayacalltaxi@gmail.com</a></li>
-                                                    <li><a href="#">mayacalltaxi@gmail.com</a></li>
+                                                    <li><a href="#0">mayacalltaxi@gmail.com</a></li>
+                                                    <li><a href="#0">mayacalltaxi@gmail.com</a></li>
+                                                    <li><a href="#0">mayacalltaxi@gmail.com</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -179,16 +179,16 @@ function Contact() {
                         <div className="demo-wrapper">
                                 <h3 className="text-center element-heading mb-4">SOCIAL</h3>
                                 <ul className="social-network mb-0">
-                                    <li><a href="#"><span className="icon-facebook"><FaFacebook className='contact-soc-ico'/></span></a></li>
-                                    <li><a href="#"><span className="icon-twitter"><FaInstagram className='contact-soc-ico'/></span></a></li>
-                                    <li><a href="#"><span className="icon-google-plus"><FaYoutube className='contact-soc-ico'/></span></a></li>
-                                    <li><a href="#"><span className="icon-pinterest"><FaTwitter className='contact-soc-ico'/></span></a></li>
+                                    <li><a href="#0"><span className="icon-facebook"><FaFacebook className='contact-soc-ico'/></span></a></li>
+                                    <li><a href="#0"><span className="icon-twitter"><FaInstagram className='contact-soc-ico'/></span></a></li>
+                                    <li><a href="#0"><span className="icon-google-plus"><FaYoutube className='contact-soc-ico'/></span></a></li>
+                                    <li><a href="#0"><span className="icon-pinterest"><FaTwitter className='contact-soc-ico'/></span></a></li>
                                 </ul>
                             </div>
                             </div>
                             </section>
                     <div className="map-holder embed-responsive-21by9 grayscaled-map">
-                    <iframe className='embed-responsive-item map-style' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248904.42357900031!2d78.9535247341502!3d12.899257165091576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad38e61fa68ffb%3A0xbedda6917d262b5e!2sVellore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1703687531401!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe className='embed-responsive-item map-style' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248904.42357900031!2d78.9535247341502!3d12.899257165091576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad38e61fa68ffb%3A0xbedda6917d262b5e!2sVellore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1703687531401!5m2!1sen!2sin" title="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
      </div>
      <Modal

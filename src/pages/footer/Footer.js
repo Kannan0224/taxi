@@ -17,17 +17,17 @@ function Footer() {
                      </p>
                      <p className='footer-tex mt-3'>A Unit of Maya Groups</p>
                      <div className='mt-5'>
-                       <a href='#'><FaFacebook className='footer-icons'/></a>
-                       <a href='#'><FaInstagram className='footer-icons'/></a>
-                       <a href='#'><FaYoutube className='footer-icons'/></a>
-                       <a href='#'><FaTwitter className='footer-icons'/></a>
+                       <a href='#0'><FaFacebook className='footer-icons'/></a>
+                       <a href='#0'><FaInstagram className='footer-icons'/></a>
+                       <a href='#0'><FaYoutube className='footer-icons'/></a>
+                       <a href='#0'><FaTwitter className='footer-icons'/></a>
                      </div>
                 </div>
                 <div className='col-md-4 explore mt-5 mb-5 '>
                 <h3 className='footer-tex mb-4'>Explore</h3>
                 <div className="icon-lists round-icons">
                       <ul>
-                         <li><a href="#"><span className="icon-time"><FaCarSide /></span>Book a Ride</a></li>
+                         <li><a href="#0"><span className="icon-time"><FaCarSide /></span>Book a Ride</a></li>
                          <li><a href="/package"><span className="icon-heart"><FaMoneyBillAlt/></span>Packages</a></li>
                          <li><a href="/contact"><span className="icon-edit-pen-1"><FaPhoneAlt /></span>Contact</a></li>
                         <li><a href="/payment"><span className="icon-play"><FaGooglePay /></span>Pay Now</a></li>
@@ -41,20 +41,20 @@ function Footer() {
                 <h3 className='footer-tex mb-4'>Contact</h3>
                 <p className='footer-tex mt-3'>Head Office</p>
                 <p className='footer-tex mt-3'>Address: No.3, Natteri Krishnamachari Road, Krishna Nagar, Vellore, Tamil Nadu 632002, India</p>
-                <div className='mt-contact-icon'><a href='#' className='footer-tex footer-a'><FaPhoneAlt className='footer-tex arrow-icons'/>0416 2224455</a></div><br/>
-               <div className='mt-contact-icon'> <a href='#' className='footer-tex toll footer-a'><FaPhoneAlt className='footer-tex arrow-icons'/> 1800 425 224455 (Toll Free)</a></div><br/>
-                <a href='#' className='footer-tex mt-3 footer-a'><IoMdMail className='footer-tex arrow-icons'/>mayacalltaxi@gmail.com</a><br/>
+                <div className='mt-contact-icon'><a href='#0' className='footer-tex footer-a'><FaPhoneAlt className='footer-tex arrow-icons'/>0416 2224455</a></div><br/>
+               <div className='mt-contact-icon'> <a href='#0' className='footer-tex toll footer-a'><FaPhoneAlt className='footer-tex arrow-icons'/> 1800 425 224455 (Toll Free)</a></div><br/>
+                <a href='#0' className='footer-tex mt-3 footer-a'><IoMdMail className='footer-tex arrow-icons'/>mayacalltaxi@gmail.com</a><br/>
                 </div>
             </div>
         </div>
         <div className='container'>
           <div className='row mt-3'>
             <div className='col-sm-5'>
-            <a href='#' className='footer-tex footer-a copy-con'>&copy;2023 All Rights Reserved Maya Call Taxi, Vellore </a>
+            <a href='#0' className='footer-tex footer-a copy-con'>&copy;2023 All Rights Reserved Maya Call Taxi, Vellore </a>
             </div>
             <div className='col-sm-4'>
-            <a href='#' className="footer-a footer-tex con">Terms of use</a>
-            <a href='#' className="footer-a footer-tex">Privacy Policy</a>
+            <a href='#0' className="footer-a footer-tex con">Terms of use</a>
+            <a href='#0' className="footer-a footer-tex">Privacy Policy</a>
             </div>
           </div>
         </div>

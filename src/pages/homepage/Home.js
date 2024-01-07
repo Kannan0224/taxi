@@ -6,7 +6,7 @@ import { TbBrandCashapp } from "react-icons/tb";
 import { MdPhonelinkRing } from "react-icons/md";
 import { IoIosTimer } from "react-icons/io";
 import { GiExtraTime } from "react-icons/gi";
-import {homeimg,indica, innova, nissan, prossingimg, service1, service2, service3, service4, tavera, tempo, xylo } from '../../assets/images/Image';
+import {indica, innova, nissan, prossingimg, service1, service2, service3, service4, tavera, tempo, xylo } from '../../assets/images/Image';
 import {MDBCarousel,MDBCarouselItem, MDBCol,MDBIcon,MDBTypography,MDBContainer,MDBRow,} from "mdb-react-ui-kit";
 
 
@@ -67,9 +67,9 @@ function Home() {
                     <div className="col-wrap">
                       <div className="ico-box bg-gray-light has-radius-medium">
                         <div className="icon">
-                            <img src={service1} />
+                            <img src={service1} alt='transfer'/>
                         </div>
-                        <h4 className="content-title"><a href="#" className='phone-a'>RAPID CITY TRANSFER</a></h4>
+                        <h4 className="content-title"><a href="#0" className='phone-a'>RAPID CITY TRANSFER</a></h4>
                         <div className="des">
                           <p>
                           We will bring you quickly and comfortably to anywhere in your city
@@ -82,10 +82,10 @@ function Home() {
                     <div className="col-wrap">
                       <div className="ico-box bg-gray-light has-radius-medium">
                         <div className="icon">
-                        <img src={service2} />
+                        <img src={service2} alt='service'/>
                         </div>
                         <h4 className="content-title">
-                          <a href="#" className='phone-a'>HOTEL PICKUP <br />
+                          <a href="#0" className='phone-a'>HOTEL PICKUP <br />
                           </a>
                         </h4>
                         <div className="des">
@@ -100,9 +100,9 @@ function Home() {
                     <div className="col-wrap">
                       <div className="ico-box bg-gray-light has-radius-medium">
                         <div className="icon">
-                          <img src={service3} />
+                          <img src={service3} alt='pickup' />
                         </div>
-                        <h4 className="content-title"><a href="#" className='phone-a'>AIRPORT PICKUP/DROP</a></h4>
+                        <h4 className="content-title"><a href="#0" className='phone-a'>AIRPORT PICKUP/DROP</a></h4>
                         <div className="des">
                           <p>Contact us for Airport pick up/drop for you or your guests</p>
                         </div>
@@ -113,9 +113,9 @@ function Home() {
                     <div className="col-wrap">
                       <div className="ico-box bg-gray-light has-radius-medium">
                         <div className="icon">
-                        <img src={service4} />
+                        <img src={service4} alt='transaport'/>
                         </div>
-                        <h4 className="content-title"><a href="#" className='phone-a'>BAGGAGE TRANSPORT</a></h4>
+                        <h4 className="content-title"><a href="#0" className='phone-a'>BAGGAGE TRANSPORT</a></h4>
                         <div className="des">
                           <p>Have extra luggage? We will arrange the perfect cab?</p>
                         </div>
@@ -297,6 +297,7 @@ function Home() {
                       className="rounded-circle shadow-1-strong"
                       width="150"
                       height="150"
+                      alt='ram'
                     />
                   </div>
                   <h5 className="mb-3 hpy-tex">Ram Kumar</h5>
@@ -317,6 +318,7 @@ function Home() {
                       className="rounded-circle shadow-1-strong"
                       width="150"
                       height="150"
+                      alt='madhu'
                     />
                   </div>
                   <h5 className="mb-3 hpy-tex">Madhu</h5>
@@ -337,6 +339,7 @@ function Home() {
                       className="rounded-circle shadow-1-strong"
                       width="150"
                       height="150"
+                      alt='sanjay'
                     />
                   </div>
                   <h5 className="mb-3 hpy-tex">Sanjay</h5>
@@ -363,6 +366,7 @@ function Home() {
                       className="rounded-circle shadow-1-strong"
                       width="150"
                       height="150"
+                      alt='karthi'
                     />
                   </div>
                   <h5 className="mb-3 hpy-tex">Karthi</h5>
@@ -383,6 +387,7 @@ function Home() {
                       className="rounded-circle shadow-1-strong"
                       width="150"
                       height="150"
+                      alt='madhavan'
                     />
                   </div>
                   <h5 className="mb-3 hpy-tex">Madhavan</h5>
@@ -403,6 +408,7 @@ function Home() {
                       className="rounded-circle shadow-1-strong"
                       width="150"
                       height="150"
+                      alt='yuvaraj'
                     />
                   </div>
                   <h5 className="mb-3 hpy-tex">Yuvaraj</h5>
@@ -429,6 +435,7 @@ function Home() {
                       className="rounded-circle shadow-1-strong"
                       width="150"
                       height="150"
+                      alt='selvam'
                     />
                   </div>
                   <h5 className="mb-3 hpy-tex">Selvam</h5>
@@ -449,6 +456,7 @@ function Home() {
                       className="rounded-circle shadow-1-strong"
                       width="150"
                       height="150"
+                      alt='akash'
                     />
                   </div>
                   <h5 className="mb-3 hpy-tex">Akash</h5>
@@ -469,6 +477,7 @@ function Home() {
                       className="rounded-circle shadow-1-strong"
                       width="150"
                       height="150"
+                      alt='tamil'
                     />
                   </div>
                   <h5 className="mb-3 hpy-tex">Tamil Selvan</h5>

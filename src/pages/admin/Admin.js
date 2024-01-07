@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import {MDBContainer, MDBCol, MDBRow, MDBInput} from 'mdb-react-ui-kit';
 import './admin.css';
-import AdminTable from './AdminTable';
 import { useNavigate } from 'react-router-dom';
 
 function Admin() {
@@ -13,7 +12,7 @@ function Admin() {
     setAdminTable(e.target.value)
   }
   const handleRout=()=>{
-    if(adminTable=="Admin123"){
+    if(adminTable==="Admin123"){
       navigate("/adminTable")
     }
   }
@@ -25,7 +24,7 @@ function Admin() {
       <MDBRow style={{marginTop:"6rem"}}>
 
         <MDBCol col='10' md='6'>
-          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp" class="img-fluid" alt="Sample image" />
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp" class="img-fluid" alt="Sample" />
         </MDBCol>
 
         <MDBCol col='4' md='6' style={{marginTop:"3rem"}}>
