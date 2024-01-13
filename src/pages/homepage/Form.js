@@ -48,7 +48,7 @@ function Form() {
     onSubmit: values =>{
       console.log(values);
       // model.show();
-      axios.post("http://localhost:3001/booking/insert",values).then((response)=>{
+      axios.post("https://call-taxi.onrender.com/booking/insert",values).then((response)=>{
         // console.log(response);
         setResponsedata(response.data);
         setModal(true)

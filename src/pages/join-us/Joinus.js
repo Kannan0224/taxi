@@ -43,7 +43,7 @@ function Joinus() {
         },
         validate,
         onSubmit:values=>{
-            axios.post("http://localhost:3001/booking/joinUs",values).then((response)=>{
+            axios.post("https://call-taxi.onrender.com/booking/joinUs",values).then((response)=>{
                 // console.log(response);
                 setResponsedata(response.data);
                 setModal(true)
