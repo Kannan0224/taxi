@@ -80,6 +80,7 @@ function Form() {
                     <img src={images[formik.values.carType]} className="img-fluid form-cars" alt="..."/>
                   </div>
                   <div className="form-group form-err">
+                    <label>Select Car Model </label>
                     <select className={formik.touched.carType && formik.errors.carType ?"form-select  select-inp form-select-lg fs-6 border-red":"form-select select-inp form-select-lg fs-6"}
                     onChange={formik.handleChange} name='carType' value={formik.values.carType}
                       onBlur={formik.handleBlur}  aria-label=".form-select-lg example">
@@ -101,6 +102,7 @@ function Form() {
       <div className="row">
          <div className="col-sm-6">
          <div className="form-group form-err">
+         <label>Select package</label>
           <select className={formik.touched.userPackage && formik.errors.userPackage ?"form-select  select-inp form-select-lg fs-6 border-red":"form-select select-inp form-select-lg fs-6"}
            onChange={formik.handleChange} name='userPackage' value={formik.values.userPackage}
             onBlur={formik.handleBlur}  aria-label=".form-select-lg example">
@@ -114,6 +116,7 @@ function Form() {
           </div>
           <div className="col-sm-6">
           <div className="form-group f-group form-err">
+          <label>Customer Name</label>
           <input type="text" onChange={formik.handleChange} value={formik.values.userName} onBlur={formik.handleBlur} name='userName' placeholder="NAME *" id="con_lname"
           className={formik.touched.userName && formik.errors.userName ?"form-control border-red":"form-control"}/>
                {
@@ -125,6 +128,7 @@ function Form() {
            <div className="row">
                <div className="col-sm-6">
                    <div className="form-group f-group form-err">
+                   <label>From</label>
                        <input type="text" onChange={formik.handleChange} value={formik.values.fromUser} onBlur={formik.handleBlur} name='fromUser' placeholder="FROM *" id="con_phone" 
                        className={formik.touched.fromUser && formik.errors.fromUser ? "form-control border-red":"form-control"}/>
                        {
@@ -134,6 +138,7 @@ function Form() {
                 </div>
             <div className="col-sm-6">
                  <div className="form-group f-group form-err">
+                      <label>To</label>
                        <input type="text" onChange={formik.handleChange} value={formik.values.toUser} onBlur={formik.handleBlur} name='toUser' placeholder="TO *" id="con_email" 
                        className={formik.touched.toUser &&  formik.errors.toUser ? "form-control border-red":"form-control"}/>
                        {
@@ -145,6 +150,7 @@ function Form() {
             <div className="row">
                  <div className="col-sm-6">
                    <div className="form-group f-group form-err">
+                    <label>Mobile Number</label>
                       <input type="number" onChange={formik.handleChange} value={formik.values.userMobile} onBlur={formik.handleBlur} name='userMobile' placeholder="MOBILE NO *" id="con_phone" 
                       className={formik.touched.userMobile && formik.errors.userMobile ? "form-control border-red":"form-control"}/>
                       {
@@ -154,6 +160,7 @@ function Form() {
                  </div>
              <div className="col-sm-6">
                   <div className="form-group f-group form-err">
+                  <label>Date and Time</label>
                       <input type="datetime-local" onChange={formik.handleChange} value={formik.values.userDate} onBlur={formik.handleBlur} name='userDate' placeholder="SUBJECT *" id="con_email"
                        className={formik.touched.userDate && formik.errors.userDate ? "form-control border-red":"form-control"}/>
                       {

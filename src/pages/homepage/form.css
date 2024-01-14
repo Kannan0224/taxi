@@ -117,3 +117,8 @@
     min-width: 170px;
   }
 }
+label {
+  display: inline-block;
+  float: left;
+  margin-bottom: 5px;
+}
