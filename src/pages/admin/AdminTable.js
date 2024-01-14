@@ -4,10 +4,10 @@ import axios from 'axios';
 function AdminTable() {
   const [list,setList] = useState([]);
   useEffect(() => {
-    axios.get('https://call-taxi.onrender.com/booking/list').then((data) => {
+    axios.get('http://localhost:3001/booking/list').then((data) => {
         setList(data.data);
       })
-  },[list]);
+  },[]);
 
   return (
     <>
