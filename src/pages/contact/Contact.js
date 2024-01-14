@@ -45,7 +45,7 @@ function Contact() {
         },
         validate,
         onSubmit:values=>{
-            axios.post("https://call-taxi.onrender.com/booking/complaints",values).then((response)=>{
+            axios.post("https://precious-jade-dove.cyclic.app/booking/complaints",values).then((response)=>{
                 // console.log(response);
                 setResponsedata(response.data);
                 setModal(true)

@@ -4,7 +4,7 @@ import axios from 'axios';
 function AdminTable() {
   const [list,setList] = useState([]);
   useEffect(() => {
-    axios.get('https://call-taxi.onrender.com/booking/list').then((data) => {
+    axios.get('https://precious-jade-dove.cyclic.app/booking/list').then((data) => {
         setList(data.data);
       })
   },[]);

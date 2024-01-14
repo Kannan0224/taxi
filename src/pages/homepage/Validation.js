@@ -1,1 +1,1 @@
-const API_URL="https://call-taxi.onrender.com/bookingList/insert";
+const API_URL="https://precious-jade-dove.cyclic.app/bookingList/insert";
