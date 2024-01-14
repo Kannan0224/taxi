@@ -179,7 +179,7 @@ function Joinus() {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          {responseData.status === 'success' ? 'Complaint Registered' : 'Complaint Failed'}
+          {responseData.status === 'success' ? 'Your application submited ' : 'Application Failed'}
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
@@ -187,7 +187,7 @@ function Joinus() {
           <img src={responseData.status === 'success' ? successIcon : errorIcon } alt='successIcon' style={{width:'200px',height:'200px'}}></img>
           {
             responseData.status === 'success' ? ( <p style={{marginTop:"10px",color:"#2296f3",fontWeight:'bolder',fontSize:'22px'}}>
-             Thank you for your feedback 
+             Thank you for your Interest , we will getback soon  
           </p>)   : (<p style={{marginTop:"10px",color:"#fe646f",fontWeight:'bolder',fontSize:'22px'}}>
             Internal server Error 
           </p>)
