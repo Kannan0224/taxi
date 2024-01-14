@@ -34,6 +34,7 @@ const validate = values =>{
 function Form() {
  const [modal,setModal]= useState(false);
  const [responseData,setResponsedata] = useState({});
+ const [disableButton,setDisableButton] = useState(false);
   const formik = useFormik({
     initialValues:{
       carType : 'indica',
@@ -46,12 +47,12 @@ function Form() {
     },
     validate,
     onSubmit: values =>{
-      console.log(values);
-      // model.show();
+      setDisableButton(true);
       axios.post("https://precious-jade-dove.cyclic.app/booking/insert",values).then((response)=>{
         // console.log(response);
         setResponsedata(response.data);
-        setModal(true)
+        setModal(true);
+        setDisableButton(false)
       })
     }
   })
@@ -164,7 +165,9 @@ function Form() {
               <div className='row'>
                 <div className='col-12'>
                 <div className="btn-container">
-                <button type='submit' id="btn_sent" className="btn btn-arrow form-btn btn-contact">SUBMIT</button>
+                <button disabled={disableButton} type='submit' id="btn_sent" className="btn btn-arrow form-btn btn-contact">
+                      {disableButton ? 'Please wait..' : 'Book'}
+                </button>
                </div>
                 </div>
               </div>
