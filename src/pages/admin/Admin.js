@@ -31,7 +31,7 @@ function Admin() {
 
           <div className="d-flex flex-row align-items-center">
 
-            <h1 className="lead fw-normal mb-0 me-3">Maya Call Taxi</h1>
+            <h1 className="lead fw-normal mb-0 me-3">RoyalVipCallTaxi</h1>
           </div>
           <MDBInput onChange={handleChange} wrapperClass='mb-4' label='Password' id='formControlLg' type='password' size="lg"/>
 

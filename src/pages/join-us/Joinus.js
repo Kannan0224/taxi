@@ -58,7 +58,7 @@ function Joinus() {
                   <div className="col-lg-12 col-md-12 text-center mt-5">
                     <div className="col-wrap">
                       <div className="block-heading mb-5 mt-5">
-                      <span className="block-sub-heading">Maya Call Taxi // Become a Driver</span>
+                      <span className="block-sub-heading">RoyalVipCallTaxi // Become a Driver</span>
                         <h2 className="block-main-heading pack-heading mt-3">BECOME A DRIVER</h2>
                       </div>
                     </div>
@@ -71,7 +71,7 @@ function Joinus() {
                 <div className='row'>
                     <h6 className='text-center mt-5'>If you need anything from us, feel free to get in touch!</h6>
                     <h6 className='text-center'>We are available from 10 AM - 6 PM</h6>
-                    <h6 className='text-center mb-5'>Call us @ 0416 2221222</h6>
+                    <h6 className='text-center mb-5'>Call us @ 9087777361</h6>
                 </div>
             </div>
             <div className='container-fluid'>

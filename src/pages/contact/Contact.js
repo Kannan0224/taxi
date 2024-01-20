@@ -67,7 +67,7 @@ function Contact() {
                   <div className="col-lg-12 col-md-12 text-center mt-5">
                     <div className="col-wrap">
                       <div className="block-heading mb-5 mt-5">
-                      <span className="block-sub-heading">Royal VIP Call Taxi // Contact</span>
+                      <span className="block-sub-heading">RoyalVipCallTaxi // Contact</span>
                         <h2 className="block-main-heading pack-heading mt-3">CONTACT</h2>
                       </div>
                     </div>
@@ -164,9 +164,9 @@ function Contact() {
                                             <div className="icon icon-head-set"><span className="custom-icon-message"><LuMails/></span></div>
                                             <div className="text">
                                                 <ul className="content-list contact-list">
-                                                    <li><a href="#0">Royal VIPcalltaxi@gmail.com</a></li>
-                                                    <li><a href="#0">Royal VIPcalltaxi@gmail.com</a></li>
-                                                    <li><a href="#0">Royal VIPcalltaxi@gmail.com</a></li>
+                                                    <li><a href="#0">RoyalVipCallTaxi@gmail.com</a></li>
+                                                    <li><a href="#0">RoyalVipCallTaxi@gmail.com</a></li>
+                                                    <li><a href="#0">RoyalVipCallTaxi@gmail.com</a></li>
                                                 </ul>
                                             </div>
                                         </div>

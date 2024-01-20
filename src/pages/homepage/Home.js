@@ -47,6 +47,7 @@ function Home() {
                </div>
               <div className='row justify-content-center'>
               <div className='col-sm-3 aria-l'>Arani</div>
+              <div className='col-sm-3 aria-l'>Polur</div>
                 <div className='col-sm-3 aria-l'>Kanchipuram</div>
              </div>
            </div>

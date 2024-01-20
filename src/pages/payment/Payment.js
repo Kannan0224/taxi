@@ -10,8 +10,8 @@ function Payment() {
                   <div className="col-lg-12 col-md-12 text-center mt-5">
                     <div className="col-wrap">
                       <div className="block-heading mb-5 mt-5">
-                      <span className="block-sub-heading">Maya Call Taxi // Online Payment</span>
-                        <h2 className="block-main-heading pack-heading mt-3">MAYA TAXI PAYMENT</h2>
+                      <span className="block-sub-heading">RoyalVipCallTaxi // Online Payment</span>
+                        <h2 className="block-main-heading pack-heading mt-3">ROYALVIP TAXI PAYMENT</h2>
                       </div>
                     </div>
                   </div>
@@ -23,14 +23,14 @@ function Payment() {
                 <div className='row'>
                     <div className='col-sm-4 mt-3 mb-3 text-center'><img src={qrimage} alt="..." className="img-thumbnail mb-3"/><br/>
                     <span className='text-primary pgp-text'>Phonepe</span><br/>
-                    <span>9866624572</span>
+                    <span>9087777361</span>
                     </div>
                     <div className='col-sm-4 mt-3 mb-3 text-center'><img src={qrimage} alt="..." class="img-thumbnail mb-3"/><br/>
                     <span className='text-primary pgp-text'>Paytm</span><br/>
-                    <span>9866624572</span></div>
+                    <span>9087777361</span></div>
                     <div className='col-sm-4 mt-3 mb-3 text-center'><img src={qrimage} alt="..." class="img-thumbnail mb-3"/><br/>
                     <span className='text-primary pgp-text'>Google Pay</span><br/>
-                    <span>9866624572</span>
+                    <span>9087777361</span>
                     </div>
                 </div>
             </div>

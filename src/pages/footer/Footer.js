@@ -12,10 +12,9 @@ function Footer() {
                 <div className='col-md-4 mt-5'>
                     <h3 className='footer-tex'>About Us</h3>
                      <p className='footer-tex mt-4'>
-                     Maya Call Taxi is one of the leading cab services in Vellore. We give the best rides for low prices.
-                      Our service are all that you need if you are looking for a ride.
+                     RoyalVipCallTaxi is one of the leading cab services in Vellore,Arcot,Arni and polur.We give the best rides for low                         prices.Our service are all that you need if you are looking for a ride.
                      </p>
-                     <p className='footer-tex mt-3'>A Unit of Maya Groups</p>
+                     <p className='footer-tex mt-3'>A Unit of Royal Groups</p>
                      <div className='mt-5'>
                        <a href='#0'><FaFacebook className='footer-icons'/></a>
                        <a href='#0'><FaInstagram className='footer-icons'/></a>
@@ -40,17 +39,17 @@ function Footer() {
                 <div className='col-md-4 mt-5 mb-5'>
                 <h3 className='footer-tex mb-4'>Contact</h3>
                 <p className='footer-tex mt-3'>Head Office</p>
-                <p className='footer-tex mt-3'>Address: No.3, Natteri Krishnamachari Road, Krishna Nagar, Vellore, Tamil Nadu 632002, India</p>
-                <div className='mt-contact-icon'><a href='#0' className='footer-tex footer-a'><FaPhoneAlt className='footer-tex arrow-icons'/>0416 2224455</a></div><br/>
-               <div className='mt-contact-icon'> <a href='#0' className='footer-tex toll footer-a'><FaPhoneAlt className='footer-tex arrow-icons'/> 1800 425 224455 (Toll Free)</a></div><br/>
-                <a href='#0' className='footer-tex mt-3 footer-a'><IoMdMail className='footer-tex arrow-icons'/>mayacalltaxi@gmail.com</a><br/>
+                <p className='footer-tex mt-3'>Address: No.2, Main Road, Sainathapuram, Vellore, Tamil Nadu 632001,Landmark:Opposite to SBI, India</p>
+                <div className='mt-contact-icon'><a href='#0' className='footer-tex footer-a'><FaPhoneAlt className='footer-tex arrow-icons'/>9087777361</a></div><br/>
+               <div className='mt-contact-icon'> <a href='#0' className='footer-tex toll footer-a'><FaPhoneAlt className='footer-tex arrow-icons'/> 9087777362</a></div><br/>
+                <a href='#0' className='footer-tex mt-3 footer-a'><IoMdMail className='footer-tex arrow-icons'/>royalvipcalltaxi@gmail.com</a><br/>
                 </div>
             </div>
         </div>
         <div className='container'>
           <div className='row mt-3'>
             <div className='col-sm-5'>
-            <a href='#0' className='footer-tex footer-a copy-con'>&copy;2023 All Rights Reserved Maya Call Taxi, Vellore </a>
+            <a href='#0' className='footer-tex footer-a copy-con'>&copy;2024 All Rights Reserved RoyalVipCallTaxi, Vellore </a>
             </div>
             <div className='col-sm-4'>
             <a href='#0' className="footer-a footer-tex con">Terms of use</a>

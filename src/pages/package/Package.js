@@ -30,7 +30,7 @@ function Package() {
           <div className="col-lg-12 col-md-12 text-center mt-5">
              <div className="col-wrap">
                <div className="block-heading mb-5 mt-5">
-                 <span className="block-sub-heading">Maya Call Taxi // Package</span>
+                 <span className="block-sub-heading">RoyalVipCallTaxi // Package</span>
                     <h2 className="block-main-heading pack-heading mt-3">Packages</h2>
                  </div>
                 </div>
