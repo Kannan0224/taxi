@@ -25,7 +25,7 @@ function Home() {
                         <h2 className="block-main-heading pack-heading text-white mt-3">Book Your Dream Car Today</h2>
                         <div className='row'>
                         <div className='col-sm-3  offset-sm-3'><a href="tel:9087777361" className='phone-a'><h3 className='p-no mt-3'><FaPhoneVolume className='phone-icon'/>9087777361</h3></a></div>
-                        <div className='col-sm-3'><a href="tel:9087777361" className='phone-a'><h3 href="tel:9087777361" className='p-no mt-3'><MdPhonelinkRing className='phone-icon'/>9087777362</h3></a></div>
+                        <div className='col-sm-3'><a href="tel:9087777361" className='phone-a'><h3 href="tel:9087777361" className='p-no mt-3'><MdPhonelinkRing className='phone-icon'/>9087777361</h3></a></div>
                         </div>
                       </div>
                     </div>
@@ -249,7 +249,7 @@ function Home() {
               <div className='col-lg-6'>
                 <h4 className='mt-5 drive-col mb-3'>FOR DRIVERS</h4>
                 <span className='for-driv'>DO YOU WANT TO EARN WITH US?</span>
-                <p className='mt-3'>Are you an experienced driver willing to enrol with Maya Call Taxi? Come join us for these great benefits!</p>
+                <p className='mt-3'>Are you an experienced driver willing to enrol with Royal VIP Call Taxi? Come join us for these great benefits!</p>
                 <div className='container-fluid cheke-box-colm'>
                    <div className="icon-lists solid-icons">
                       <ul className='row'>
@@ -345,7 +345,7 @@ function Home() {
                   <h5 className="mb-3 hpy-tex">Sanjay</h5>
                   <p className="px-xl-3">
                     <MDBIcon fas icon="quote-left" className="pe-2" />
-                    An excellent taxi service and comfortable travel. Was very helpful during my mrs Pregnancy period from my home to CMC. All the best for Maya taxi service and team
+                    An excellent taxi service and comfortable travel. Was very helpful during my mrs Pregnancy period from my home to CMC. All the best for Royal VIP taxi service and team
                   </p>
                   <MDBTypography
                     listUnStyled
@@ -462,7 +462,7 @@ function Home() {
                   <h5 className="mb-3 hpy-tex">Akash</h5>
                   <p className="px-xl-3">
                     <MDBIcon fas icon="quote-left" className="pe-2" />
-                    An excellent taxi service and comfortable travel. Was very helpful during my mrs Pregnancy period from my home to CMC. All the best for Maya taxi service and team
+                    An excellent taxi service and comfortable travel. Was very helpful during my mrs Pregnancy period from my home to CMC. All the best for Royal VIP taxi service and team
                   </p>
                   <MDBTypography
                     listUnStyled

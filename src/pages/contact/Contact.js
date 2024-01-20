@@ -67,7 +67,7 @@ function Contact() {
                   <div className="col-lg-12 col-md-12 text-center mt-5">
                     <div className="col-wrap">
                       <div className="block-heading mb-5 mt-5">
-                      <span className="block-sub-heading">Maya Call Taxi // Contact</span>
+                      <span className="block-sub-heading">Royal VIP Call Taxi // Contact</span>
                         <h2 className="block-main-heading pack-heading mt-3">CONTACT</h2>
                       </div>
                     </div>
@@ -81,8 +81,8 @@ function Contact() {
                             <div className="contact-container">
                                 <p className='contact-para mb-0'>If you need anything from us, feel free to get in touch!</p><br/>
                                 <p className='text-center'>We are available 24/7</p>
-                                <p className='text-center'>Call Us @ <a href='#0'>09876 456454</a></p>
-                                <p className='text-center'>Toll Free - <a href='#0'>098 766 8456454</a></p>
+                                <p className='text-center'>Call Us @ <a href='#0'>9087777361</a></p>
+                                <p className='text-center'>Toll Free - <a href='#0'>9087777362</a></p>
                                 <h2 className="content-title contact-title text-center">SUGGESTIONS & COMPLAINTS</h2>
                                 <div className="row">
                                     <div className="col-lg-6">
@@ -144,18 +144,19 @@ function Contact() {
                                         <div className="info-slot">
                                             <div className="icon"><span className="custom-icon-map-marker"><FaMapLocationDot/></span></div>
                                             <div className="text">
-                                                <address>No.3, Natteri Krishnamachari Road
-                                                    <br/>Krishna Nagar, Vellore
-                                                    <br/>Tamil Nadu 632002</address>
+                                                <address>No.2, Main Road
+                                                    <br/>Sainathapuram, Vellore
+                                                    <br/>Tamil Nadu 632001
+                                                    <br/>Land Mark:Opposite to SBI</address>
                                             </div>
                                         </div>
                                         <div className="info-slot">
                                             <div className="icon icon-head-set"><span className="custom-icon-headset"><FaHeadset/></span></div>
                                             <div className="text">
                                                 <ul className="content-list contact-list">
-                                                    <li><span className="label-text">BOOKING</span> <a href="#0">9077272773</a></li>
-                                                    <li><span className="label-text">WHATSAPP</span> <a href="#0">9077272773</a></li>
-                                                    <li><span className="label-text">COMPLAINTS</span> <a href="#0">9077272773</a></li>
+                                                    <li><span className="label-text">BOOKING</span> <a href="#0">9087777361</a></li>
+                                                    <li><span className="label-text">WHATSAPP</span> <a href="#0">9087777361</a></li>
+                                                    <li><span className="label-text">COMPLAINTS</span> <a href="#0">9087777361</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -163,9 +164,9 @@ function Contact() {
                                             <div className="icon icon-head-set"><span className="custom-icon-message"><LuMails/></span></div>
                                             <div className="text">
                                                 <ul className="content-list contact-list">
-                                                    <li><a href="#0">mayacalltaxi@gmail.com</a></li>
-                                                    <li><a href="#0">mayacalltaxi@gmail.com</a></li>
-                                                    <li><a href="#0">mayacalltaxi@gmail.com</a></li>
+                                                    <li><a href="#0">Royal VIPcalltaxi@gmail.com</a></li>
+                                                    <li><a href="#0">Royal VIPcalltaxi@gmail.com</a></li>
+                                                    <li><a href="#0">Royal VIPcalltaxi@gmail.com</a></li>
                                                 </ul>
                                             </div>
                                         </div>
