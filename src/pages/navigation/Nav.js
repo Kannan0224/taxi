@@ -26,6 +26,7 @@ function Nav() {
           </div>
           <div className="links-con">
              <ul className={close ? "slider" : "ul-style"}>
+                 <li className='li-style li-one'><bold>RoyalVipCallTaxi</bold></li> 
                  <li className='li-style li-one'><a href="/package" className='a-style'>Package</a></li>
                  <li className='li-style'><a href="/tariff" className='a-style'>Tariff</a></li>
                  <li className='li-style'><a href="/#testimonial" className='a-style'>Testimonial</a></li>
