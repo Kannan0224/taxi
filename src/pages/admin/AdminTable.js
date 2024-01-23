@@ -6,6 +6,7 @@ function AdminTable() {
   useEffect(() => {
     axios.get('https://precious-jade-dove.cyclic.app/booking/list').then((data) => {
         setList(data.data);
+        console.log(data.data)
       })
   },[]);
 
@@ -42,15 +43,15 @@ function AdminTable() {
                     </tr>
                     {
                       list.map((values) =>(
-                        <tr>
-                          <td>{values.ID}</td>
-                          <td>{values.cartype}</td>
-                          <td>{values.package}</td>
-                          <td>{values.username}</td>
-                          <td>{values.bookFrom}</td>
-                          <td>{values.bookTo}</td>
-                          <td>{values.mobileNumber}</td>
-                          <td>{values.bookingdate}</td>
+                        <tr key={values._id}>
+                          <td>{values._id}</td>
+                          <td>{values.carType}</td>
+                          <td>{values.userPackage}</td>
+                          <td>{values.userName}</td>
+                          <td>{values.fromUser}</td>
+                          <td>{values.toUser}</td>
+                          <td>{values.userMobile}</td>
+                          <td>{values.userDate}</td>
                         </tr>
                       ))
                     }
