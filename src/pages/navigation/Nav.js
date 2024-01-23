@@ -23,8 +23,8 @@ function Nav() {
             <a href="/">
               <img src={tittle} alt="tittle" className='nav-logo' />
             </a>
-            <a href="/RoyalVipCallTaxi" className='a-style'>RoyalVipCallTaxi</a><br>
-             <a href="/"><h4>9087777361</h4></a>       
+            <a href="/RoyalVipCallTaxi" className='a-style'>RoyalVipCallTaxi</a>
+                 
           </div>
           <div className="links-con">
              <ul className={close ? "slider" : "ul-style"}>
