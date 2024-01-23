@@ -24,6 +24,7 @@ function Nav() {
               <img src={tittle} alt="tittle" className='nav-logo' />
             </a>
             <a href="/RoyalVipCallTaxi" className='a-style'>RoyalVipCallTaxi</a>
+             <font color =" red" ><h2>9087777361</h2></font>
                  
           </div>
           <div className="links-con">
