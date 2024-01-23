@@ -24,10 +24,10 @@ function Nav() {
               <img src={tittle} alt="tittle" className='nav-logo' />
             </a>
             <a href="/RoyalVipCallTaxi" className='a-style'>RoyalVipCallTaxi</a>
+             <a href="/"> className='a-style'>9087777361</a>       
           </div>
           <div className="links-con">
              <ul className={close ? "slider" : "ul-style"}>
-                 <li className='li-style li-one'> <a href="/RoyalVipCallTaxi" className='a-style'>RoyalVipCallTaxi</a></li>
                  <li className='li-style li-one'><a href="/package" className='a-style'>Package</a></li>
                  <li className='li-style'><a href="/tariff" className='a-style'>Tariff</a></li>
                  <li className='li-style'><a href="/#testimonial" className='a-style'>Testimonial</a></li>
