@@ -3,10 +3,11 @@ import axios from 'axios';
 
 function AdminTable() {
   const [list,setList] = useState([]);
+  const [loader,setLoader] = useState(true);
   useEffect(() => {
     axios.get('https://precious-jade-dove.cyclic.app/booking/list').then((data) => {
         setList(data.data);
-        console.log(data.data)
+        setLoader(false)
       })
   },[]);
 
@@ -29,33 +30,42 @@ function AdminTable() {
           <div className='container-fluid'>
             <div className='row'>
             <div className="demo-wrapper mt-0 mb-3">
-               <div className="data-table">
-                  <table className="table table-striped">
-                    <tr>
-                        <th>Bookin Id</th>
-                        <th>CarType</th>
-                        <th>Package</th>
-                        <th>Name</th>
-                        <th>From</th>
-                        <th>To</th>
-                        <th>Mobile Number</th>
-                        <th>Date</th>
-                    </tr>
-                    {
-                      list.map((values) =>(
-                        <tr key={values._id}>
-                          <td>{values._id}</td>
-                          <td>{values.carType}</td>
-                          <td>{values.userPackage}</td>
-                          <td>{values.userName}</td>
-                          <td>{values.fromUser}</td>
-                          <td>{values.toUser}</td>
-                          <td>{values.userMobile}</td>
-                          <td>{values.userDate}</td>
-                        </tr>
-                      ))
-                    }
-              </table>
+              <div className="data-table">
+                <table className="table table-striped">
+                  <thead>
+                      <tr>
+                          <th>Bookin Id</th>
+                          <th>CarType</th>
+                          <th>Package</th>
+                          <th>Name</th>
+                          <th>From</th>
+                          <th>To</th>
+                          <th>Mobile Number</th>
+                          <th>Date</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      {
+                        loader ? ( 
+                          <tr className='text-center'>
+                            <td colSpan={8}>Data Fetching ....</td>
+                          </tr>
+                          ) :  
+                        list.map((values) =>(
+                          <tr key={values._id}>
+                            <td>{values._id}</td>
+                            <td>{values.carType}</td>
+                            <td>{values.userPackage}</td>
+                            <td>{values.userName}</td>
+                            <td>{values.fromUser}</td>
+                            <td>{values.toUser}</td>
+                            <td>{values.userMobile}</td>
+                            <td>{values.userDate}</td>
+                          </tr>
+                        ))
+                      }
+                  </tbody>
+                </table>
             </div>
           </div>
          </div>
