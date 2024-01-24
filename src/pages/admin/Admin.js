@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {MDBContainer, MDBCol, MDBRow, MDBInput} from 'mdb-react-ui-kit';
+import {MDBContainer, MDBCol, MDBRow} from 'mdb-react-ui-kit';
 import './admin.css';
 import { useNavigate } from 'react-router-dom';
 
