@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {MDBContainer, MDBCol, MDBRow, MDBInput} from 'mdb-react-ui-kit';
+import {MDBContainer, MDBCol, MDBRow} from 'mdb-react-ui-kit';
 import './admin.css';
 import { useNavigate } from 'react-router-dom';
 
@@ -33,12 +33,10 @@ function Admin() {
 
             <h1 className="lead fw-normal mb-0 me-3">RoyalVipCallTaxi</h1>
           </div>
-          <MDBInput onChange={handleChange} wrapperClass='mb-4' label='Password' id='formControlLg' type='password' size="lg"/>
-
-          <div className='text-md-start mt-4 pt-2'>
-            <button onClick={handleRout} type='submit' id="btn_sent" className="btn btn-admin btn-arrow form-btn btn-contact">SUBMIT</button>
+          <div className='d-flex flex-column '>
+            <input onChange={handleChange} className='form-control' wrapperClass='mb-4' label='Password' id='formControlLg' type='password' size="lg"></input>
+            <button onClick={handleRout} type='submit' id="btn_sent" className="btn btn-admin btn-arrow form-btn btn-contact mt-10">SUBMIT</button>
           </div>
-
         </MDBCol>
 
       </MDBRow>

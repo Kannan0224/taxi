@@ -64,10 +64,15 @@
 .data-table .vertical-bordered > thead > tr > th {
 	border-width: 1px !important;
 }
-table th{
-    background-color: #06d6a0;
-    color: #fff;
-    border: 1px solid #ebedef;
+table thead  tr th {
+    background-color: #06d6a0 !important;
+    color: #fff !important;
+    border: 1px solid #ebedef !important;
+}
+table th {
+    background-color: #06d6a0 !important;
+    color: #fff !important;
+    border: 1px solid #ebedef !important;
 }
 .demo-wrapper h3{
     margin-left: 1rem;
