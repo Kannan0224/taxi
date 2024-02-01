@@ -23,14 +23,14 @@ function Payment() {
                 <div className='row'>
                     <div className='col-sm-4 mt-3 mb-3 text-center'><img src={qrimage} alt="..." className="img-thumbnail mb-3"/><br/>
                     <span className='text-primary pgp-text'>Phonepe</span><br/>
-                    <span>9087777361</span>
+                    <span>9790367861</span>
                     </div>
                     <div className='col-sm-4 mt-3 mb-3 text-center'><img src={qrimage} alt="..." class="img-thumbnail mb-3"/><br/>
                     <span className='text-primary pgp-text'>Paytm</span><br/>
-                    <span>9087777361</span></div>
+                    <span>9790367861</span></div>
                     <div className='col-sm-4 mt-3 mb-3 text-center'><img src={qrimage} alt="..." class="img-thumbnail mb-3"/><br/>
                     <span className='text-primary pgp-text'>Google Pay</span><br/>
-                    <span>9087777361</span>
+                    <span>9790367861</span>
                     </div>
                 </div>
             </div>
