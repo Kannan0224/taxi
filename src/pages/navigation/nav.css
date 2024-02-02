@@ -29,10 +29,17 @@
 }
 .a-style{
     padding-right: 35px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.aa-style{
+    padding-right: 35px;
     font-size: 25px;
     color: #fff;
     text-decoration: underline blue;
 }
+
 .humberger{
     display: inline;
     margin-top: -45px;
