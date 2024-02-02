@@ -9,7 +9,7 @@ export{default as service1} from './_services-1.png';
 export{default as service2} from './_services-2.png';
 export{default as service3} from './_services-3.png';
 export{default as service4} from './_services-4.png';
-export{default as qrimage} from './QR Image.png';
+export{default as qrimage} from './QRImage.jpeg';
 export{default as tavera} from './tavera.png';
 export{default as xylo} from './xylo.png';
 export{default as innova} from './innova.png';
