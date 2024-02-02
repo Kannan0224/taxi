@@ -29,9 +29,9 @@
 }
 .a-style{
     padding-right: 35px;
-    font-size: 18px;
+    font-size: 25px;
     color: #fff;
-    text-decoration: none;
+    text-decoration: underline blue;
 }
 .humberger{
     display: inline;
