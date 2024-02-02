@@ -11,7 +11,7 @@ function Payment() {
                     <div className="col-wrap">
                       <div className="block-heading mb-5 mt-5">
                       <span className="block-sub-heading">RoyalVipCallTaxi // Online Payment</span>
-                        <h2 className="block-main-heading pack-heading mt-3">ROYALVIP TAXI PAYMENT</h2>
+                        <h2 className="block-main-heading pack-heading mt-3">ROYALVIP TAXI PAYMENTS</h2>
                       </div>
                     </div>
                   </div>
