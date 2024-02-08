@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { tittle } from '../../assets/images/Image';
-import {FaBars} from 'react-icons/fa'
+import {FaBars, FaPhoneAlt} from 'react-icons/fa'
 import { FaXmark } from "react-icons/fa6";
 import "./nav.css";
 
@@ -19,13 +19,7 @@ function Nav() {
     <nav className='nav-style'>
      <div className="container-fluid">
         <div className=" nav-dis">
-          <div className="tittle-con">
-        <a href="/">
-              <img src={tittle} alt="tittle" className='nav-logo' />
-            </a>
-            <h1  className='a-style'>ROYALVIPCALLTAXI[9087777361]</h1>
-
-          </div>
+             <a className="navbar-brand logo-style" href="/">ROYALVIPCALLTAXI <span className="icon-edit-pen-1 logo-icon"> <FaPhoneAlt /></span>9087777361 </a>
           <div className="links-con">
              <ul className={close ? "slider" : "ul-style"}>
                  <li className='li-style li-one'><a href="/package" className='a-style'>Package</a></li>
