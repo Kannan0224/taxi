@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { tittle } from '../../assets/images/Image';
 import {FaBars} from 'react-icons/fa'
 import { FaXmark } from "react-icons/fa6";
 import "./nav.css";
@@ -20,8 +20,10 @@ function Nav() {
      <div className="container-fluid">
         <div className=" nav-dis">
           <div className="tittle-con">
-        
-            <a href="/RoyalVipCallTaxi" className='a-style'>RoyalVipCallTaxi<br>[9087777361]</a>
+       <a href="/">
+              <img src={tittle} alt="tittle" className='nav-logo' />
+            </a> 
+            <a href="/RoyalVipCallTaxi" className='a-style'>RoyalVipCallTaxi[9087777361]</a>
 
           </div>
           <div className="links-con">
