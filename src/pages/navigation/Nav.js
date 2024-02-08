@@ -20,9 +20,7 @@ function Nav() {
      <div className="container-fluid">
         <div className=" nav-dis">
           <div className="tittle-con">
-            <a href="/">
-              <img src={tittle} alt="tittle" className='nav-logo' />
-            </a>
+            
             <a href="/RoyalVipCallTaxi" className='aa-style'>RoyalVipCallTaxi<br>[9087777361]</a>
 
           </div>
