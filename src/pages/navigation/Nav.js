@@ -23,7 +23,7 @@ function Nav() {
        <a href="/">
               <img src={tittle} alt="tittle" className='nav-logo' />
             </a> 
-            <a href="/RoyalVipCallTaxi" className='a-style'>RoyalVipCallTaxi[9087777361]</a>
+            <h1  className='a-style'>ROYALVIPCALLTAXI[9087777361]</h1>
 
           </div>
           <div className="links-con">

@@ -1,4 +1,0 @@
-import { tittle } from '../../assets/images/Image';
-<a href="/">
-              <img src={tittle} alt="tittle" className='nav-logo' />
-            </a>
