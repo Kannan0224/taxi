@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { tittle } from '../../assets/images/Image';
+
 import {FaBars} from 'react-icons/fa'
 import { FaXmark } from "react-icons/fa6";
 import "./nav.css";
