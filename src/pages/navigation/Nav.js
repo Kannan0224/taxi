@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {FaBars, FaPhoneAlt} from 'react-icons/fa'
 import { FaXmark } from "react-icons/fa6";
 import "./nav.css";
+import { mainlogo } from '../../assets/images/Image';
 
 
 
@@ -18,7 +19,7 @@ function Nav() {
     <nav className='nav-style'>
      <div className="container-fluid">
         <div className=" nav-dis">
-             <a className="navbar-brand logo-style" href="/">ROYALVIPCALLTAXI <span className="icon-edit-pen-1 logo-icon"> <FaPhoneAlt /></span>9087777361 </a>
+             <a className="navbar-brand logo-style" href="/"><img src={mainlogo} alt="tittle" className='nav-logo' /> </a>
           <div className="links-con">
              <ul className={close ? "slider" : "ul-style"}>
                  <li className='li-style li-one'><a href="/package" className='a-style'>Package</a></li>
