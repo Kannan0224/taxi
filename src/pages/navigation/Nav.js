@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {FaBars, FaPhoneAlt} from 'react-icons/fa'
+import {FaBars} from 'react-icons/fa'
 import { FaXmark } from "react-icons/fa6";
 import "./nav.css";
 import { mainlogo } from '../../assets/images/Image';
