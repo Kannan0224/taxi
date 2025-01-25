@@ -53,6 +53,9 @@ function Form() {
         setResponsedata(response.data);
         setModal(true);
         setDisableButton(false)
+      }).catch(()=>{
+        setModal(true);
+        setDisableButton(false);
       })
     }
   })
