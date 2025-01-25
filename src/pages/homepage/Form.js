@@ -25,6 +25,9 @@ const validate = values =>{
   if(!values.userMobile){
     errors.userMobile = "Mobile No is Required!";
   }
+  if(values.userMobile.toString().length !== 10){
+    errors.userMobile = "Mobile Number should be 10 digits!";
+  }
   if(!values.userDate){
     errors.userDate = "Date is Required!";
   }
