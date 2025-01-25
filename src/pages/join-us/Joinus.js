@@ -43,7 +43,7 @@ function Joinus() {
         },
         validate,
         onSubmit:values=>{
-            axios.post("https://precious-jade-dove.cyclic.app/booking/joinUs",values).then((response)=>{
+            axios.post("https://taxi-server-bmrh.onrender.com/booking/joinUs",values).then((response)=>{
                 // console.log(response);
                 setResponsedata(response.data);
                 setModal(true)

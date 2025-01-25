@@ -51,7 +51,7 @@ function Form() {
     validate,
     onSubmit: values =>{
       setDisableButton(true);
-      axios.post("https://precious-jade-dove.cyclic.app/booking/insert",values).then((response)=>{
+      axios.post("https://taxi-server-bmrh.onrender.com/booking/insert",values).then((response)=>{
         // console.log(response);
         setResponsedata(response.data);
         setModal(true);

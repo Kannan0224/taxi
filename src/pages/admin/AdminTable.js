@@ -5,7 +5,7 @@ function AdminTable() {
   const [list,setList] = useState([]);
   const [loader,setLoader] = useState(true);
   useEffect(() => {
-    axios.get('https://precious-jade-dove.cyclic.app/booking/list').then((data) => {
+    axios.get('https://taxi-server-bmrh.onrender.com/booking/list').then((data) => {
         setList(data.data);
         setLoader(false)
       })
