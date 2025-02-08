@@ -11,23 +11,27 @@ import Payment from './pages/payment/Payment';
 import Contact from './pages/contact/Contact';
 import Admin from './pages/admin/Admin';
 import AdminTable from './pages/admin/AdminTable';
+import MaintaincePage from './pages/maintaince/maintaince';
 
 function App() {
+  const maintaince = false;
   return (
     <>
      <Router>
-     <Nav/>
+     { !maintaince ? <Nav/> : '' }
      <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/package' element={<Package/>}/>
-      <Route path='/tariff' element={<Tariff/>}/>
-      <Route path='/joinus' element={<Joinus/>}/>
-      <Route path='/payment' element={<Payment/>}/>
-      <Route path='/contact' element={<Contact/>}/>
-      <Route path='/admin' element={<Admin/>}/>
-      <Route path='/adminTable' element={<AdminTable/>}/>
+      <Route path='/' element={ maintaince ? <MaintaincePage/> : <Home/>}/>
+      { !maintaince ? <>
+            <Route path='/package' element={<Package/>}/>
+            <Route path='/tariff' element={<Tariff/>}/>
+            <Route path='/joinus' element={<Joinus/>}/>
+            <Route path='/payment' element={<Payment/>}/>
+            <Route path='/contact' element={<Contact/>}/>
+            <Route path='/admin' element={<Admin/>}/>
+            <Route path='/adminTable' element={<AdminTable/>}/> </>: ''
+      }
      </Routes>
-     <Footer/>
+     { !maintaince ? <Footer/> : '' }
      </Router>
     </>
   )

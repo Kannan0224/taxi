@@ -44,3 +44,4 @@ export{default as prossingimg} from './image_processing.gif';
 export{default as successIcon } from './check.png';
 export {default as successTick} from './successTick.png';
 export { default as errorIcon} from './error.png';
+export { default as maintaince} from './maintaince.svg'
