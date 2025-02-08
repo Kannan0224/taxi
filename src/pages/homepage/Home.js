@@ -24,8 +24,8 @@ function Home() {
                       <span className="block-sub-heading text-white">Ready To Book Your Dream Car?</span>
                         <h2 className="block-main-heading pack-heading text-white mt-3">Book Your Dream Car Today</h2>
                         <div className='row'>
-                        <div className='col-sm-3  offset-sm-3'><a href="tel:9087777361" className='phone-a'><h3 className='p-no mt-3'><FaPhoneVolume className='phone-icon'/>9087777361</h3></a></div>
-                        <div className='col-sm-3'><a href="tel:9087777361" className='phone-a'><h3 href="tel:9087777361" className='p-no mt-3'><MdPhonelinkRing className='phone-icon'/>9087777361</h3></a></div>
+                        <div className='col-sm-3  offset-sm-3'><a href="tel:9159152699" className='phone-a'><h3 className='p-no mt-3'><FaPhoneVolume className='phone-icon'/>9159152699</h3></a></div>
+                        <div className='col-sm-3'><a href="tel:9159152699" className='phone-a'><h3 href="tel:9159152699" className='p-no mt-3'><MdPhonelinkRing className='phone-icon'/>9159152699</h3></a></div>
                         </div>
                       </div>
                     </div>

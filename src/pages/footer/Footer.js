@@ -40,8 +40,8 @@ function Footer() {
                 <h3 className='footer-tex mb-4'>Contact</h3>
                 <p className='footer-tex mt-3'>Head Office</p>
                 <p className='footer-tex mt-3'>Address: No.2, Main Road, Sainathapuram, Vellore, Tamil Nadu 632001,Landmark:Opposite to SBI, India</p>
-                <div className='mt-contact-icon'><a href='#0' className='footer-tex footer-a'><FaPhoneAlt className='footer-tex arrow-icons'/>9087777361</a></div><br/>
-               <div className='mt-contact-icon'> <a href='#0' className='footer-tex toll footer-a'><FaPhoneAlt className='footer-tex arrow-icons'/> 9087777362</a></div><br/>
+                <div className='mt-contact-icon'><a href='#0' className='footer-tex footer-a'><FaPhoneAlt className='footer-tex arrow-icons'/>9159152699</a></div><br/>
+               <div className='mt-contact-icon'> <a href='#0' className='footer-tex toll footer-a'><FaPhoneAlt className='footer-tex arrow-icons'/> 9159152699</a></div><br/>
                 <a href='#0' className='footer-tex mt-3 footer-a'><IoMdMail className='footer-tex arrow-icons'/>royalvipcalltaxi@gmail.com</a><br/>
                 </div>
             </div>

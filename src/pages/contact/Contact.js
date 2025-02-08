@@ -81,8 +81,8 @@ function Contact() {
                             <div className="contact-container">
                                 <p className='contact-para mb-0'>If you need anything from us, feel free to get in touch!</p><br/>
                                 <p className='text-center'>We are available 24/7</p>
-                                <p className='text-center'>Call Us @ <a href='#0'>9087777361</a></p>
-                                <p className='text-center'>Toll Free - <a href='#0'>9087777362</a></p>
+                                <p className='text-center'>Call Us @ <a href='#0'>9159152699</a></p>
+                                <p className='text-center'>Toll Free - <a href='#0'>9159152699</a></p>
                                 <h2 className="content-title contact-title text-center">SUGGESTIONS & COMPLAINTS</h2>
                                 <div className="row">
                                     <div className="col-lg-6">
@@ -154,9 +154,9 @@ function Contact() {
                                             <div className="icon icon-head-set"><span className="custom-icon-headset"><FaHeadset/></span></div>
                                             <div className="text">
                                                 <ul className="content-list contact-list">
-                                                    <li><span className="label-text">BOOKING</span> <a href="#0">9087777361</a></li>
-                                                    <li><span className="label-text">WHATSAPP</span> <a href="#0">9087777361</a></li>
-                                                    <li><span className="label-text">COMPLAINTS</span> <a href="#0">9087777361</a></li>
+                                                    <li><span className="label-text">BOOKING</span> <a href="#0">9159152699</a></li>
+                                                    <li><span className="label-text">WHATSAPP</span> <a href="#0">9159152699</a></li>
+                                                    <li><span className="label-text">COMPLAINTS</span> <a href="#0">9159152699</a></li>
                                                 </ul>
                                             </div>
                                         </div>

@@ -71,7 +71,7 @@ function Joinus() {
                 <div className='row'>
                     <h6 className='text-center mt-5'>If you need anything from us, feel free to get in touch!</h6>
                     <h6 className='text-center'>We are available from 10 AM - 6 PM</h6>
-                    <h6 className='text-center mb-5'>Call us @ 9087777361</h6>
+                    <h6 className='text-center mb-5'>Call us @ 9159152699</h6>
                 </div>
             </div>
             <div className='container-fluid'>
