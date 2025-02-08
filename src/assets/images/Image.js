@@ -1,6 +1,6 @@
 
 export{default as tittle} from './title.png';
-export {default as mainlogo} from './svg-formatter-beautifier (4).png'
+export {default as mainlogo} from './log.svg'
 export{default as car1} from './car1.jpg';
 export{default as car2} from './car2.jpg';
 export{default as car3} from './car3.jpg';
