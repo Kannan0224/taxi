@@ -14,7 +14,7 @@ import AdminTable from './pages/admin/AdminTable';
 import MaintaincePage from './pages/maintaince/maintaince';
 
 function App() {
-  const maintaince = false;
+  const maintaince = true;
   return (
     <>
      <Router>
