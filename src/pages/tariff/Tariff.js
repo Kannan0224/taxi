@@ -22,7 +22,7 @@ function Tariff() {
           <div className='container'>
             <div className='row'>
               <h5 className='mt-5'>PLEASE INFORM BEFORE 20 MINUTES AND MAKE YOUR JOURNEY SAFE AND HASSLE FREE</h5>
-              <h5 className='text-red mb-5'>ADDITIONAL CHARGES: HILLS, NIGHT STAY @ RS.300 / NIGHT</h5>
+              <h5 className='text-red mb-5'>ADDITIONAL CHARGES: HILLS, NIGHT STAY @ RS.250 / NIGHT</h5>
               <div className='local-meter mb-3'>
                 <h2>LOCAL METER TARIFF</h2>
                 <button className='btn-down'>Download Tariff</button>
@@ -54,37 +54,44 @@ function Tariff() {
                         <th>A/C</th>
                     </tr>
                     <tr>
-                        <td>INDICA/ALTO/LIVACELERIO/WAGON R/INDIGO/BOLT</td>
-                        <td>RS.90 /-<br/>(3 KM)</td>
+                        <td>WAGONR/INDICA/ALTO/LIVA/CELERIO/BOLT</td>
+                        <td>RS.85 /-<br/>(3 KM)</td>
                         <td>RS.18 /-</td>
                         <td>RS.20 /-</td>
                         <td>RS.2 /-<br/>(PER MIN)</td>
                         <td>RS.2 /-<br/>(PER MIN)</td>
                     </tr>
                     <tr>
-                        <td>DZIRE/ETIOSASPIRE/AMAZE/SUNNY</td>
-                        <td>RS.100 /-<br/>(4 KM)</td>
+                        <td>DZIRE/ETIOS/INDIGO/ASPIRE/AMAZE/SUNNY</td>
+                        <td>RS.95 /-<br/>(4 KM)</td>
                         <td>RS.19 /-</td>
                         <td>RS.21 /-</td>
                         <td>RS.2 /-<br/>(PER MIN)</td>
                         <td>RS.2 /-<br/>(PER MIN)</td>
                     </tr>
                     <tr>
-                        <td>TAVERA/SUMOECO/BOLERO</td>
-                        <td>RS.200 /-<br/>(4 KM)</td>
+                        <td>TAVERA/SUMO/ECO/BOLERO</td>
+                        <td>RS.195 /-<br/>(4 KM)</td>
                         <td>RS.23 /-</td>
                         <td>RS.25 /-</td>
                         <td>RS.3 /-<br/>(PER MIN)</td>
                         <td>RS.3 /-<br/>(PER MIN)</td>
                     </tr>
                     <tr>
-                        <td>XYLO/ENJOY/ERTIGALODGY/MARAZZO</td>
-                        <td>RS.200 /-<br/>(4 KM)</td>
+                        <td>XYLO/ENJOY/ERTIGA/LODGY/MARAZZO</td>
+                        <td>RS.195 /-<br/>(4 KM)</td>
                         <td>RS.23 /-</td>
                         <td>RS.25 /-</td>
                         <td>RS.3 /-<br/>(PER MIN)</td>
                         <td>RS.3 /-<br/>(PER MIN)</td>
                     </tr>
+		    <tr>
+                        <td>INNOVA</td>
+                        <td>RS.400 /-<br/>(4 KM)</td>
+                        <td>RS.25 /-</td>
+                        <td>RS.27 /-</td>
+                        <td>RS.3 /-<br/>(PER MIN)</td>
+                        <td>RS.3 /-<br/>(PER MIN)</td>
               </table>
             </div>
           </div>
@@ -104,10 +111,10 @@ function Tariff() {
                       <tr>
                         <th rowSpan={2}>HRS.</th>
                         <th rowSpan={2}>KMS.</th>
-                        <th colSpan={2}>INDICA - ALTO - LIVAWAGON R - CELERIOINDIGO - BOLT</th>
-                        <th colSpan={2}>DZIRE - ETIOS - ASPIREAMAZE - SUNNY</th>
-                        <th colSpan={2}>TAVERA - SUMOECO - BOLERO</th>
-                        <th colSpan={2}>XYLO - ENJOY - ERTIGALODGY - MARAZZO</th>
+                        <th colSpan={2}>WAGONR - INDICA -ALTO - LIVA- CELERIO - BOLT</th>
+                        <th colSpan={2}>DZIRE - ETIOS - ASPIRE - AMAZE - SUNNY</th>
+                        <th colSpan={2}>TAVERA - SUMO - ECO - BOLERO</th>
+                        <th colSpan={2}>XYLO - ENJOY - ERTIGA - LODGY - MARAZZO</th>
                         <th>INNOVO CRISTA</th>
                       </tr>                 
                       <tr>
@@ -124,132 +131,132 @@ function Tariff() {
                        <tr>
                          <td>2</td>
                          <td>20</td>
-                         <td>395</td>
+                         <td>390</td>
+                         <td>420</td>
+                         <td>400</td>
                          <td>430</td>
-                         <td>405</td>
-                         <td>435</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>760</td>
+                         <td>565</td>
+                         <td>595</td>
+                         <td>565</td>
+                         <td>595</td>
+                         <td>755</td>
                        </tr>
                        <tr>
-                         <td>2</td>
-                         <td>20</td>
-                         <td>395</td>
-                         <td>430</td>
-                         <td>405</td>
-                         <td>435</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>760</td>
+                         <td>3</td>
+                         <td>30</td>
+                         <td>500</td>
+                         <td>545</td>
+                         <td>520</td>
+                         <td>560</td>
+                         <td>700</td>
+                         <td>740</td>
+                         <td>700</td>
+                         <td>740</td>
+                         <td>920</td>
                        </tr>
                        <tr>
-                         <td>2</td>
-                         <td>20</td>
-                         <td>395</td>
-                         <td>430</td>
-                         <td>405</td>
-                         <td>435</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>760</td>
+                         <td>4</td>
+                         <td>40</td>
+                         <td>610</td>
+                         <td>660</td>
+                         <td>640</td>
+                         <td>690</td>
+                         <td>845</td>
+                         <td>895</td>
+                         <td>845</td>
+                         <td>895</td>
+                         <td>1095</td>
                        </tr>
                        <tr>
-                         <td>2</td>
-                         <td>20</td>
-                         <td>395</td>
-                         <td>430</td>
-                         <td>405</td>
-                         <td>435</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>570</td>
-                         <td>600</td>
+                         <td>4</td>
+                         <td>50</td>
+                         <td>720</td>
+                         <td>780</td>
                          <td>760</td>
+                         <td>820</td>
+                         <td>980</td>
+                         <td>1040</td>
+                         <td>980</td>
+                         <td>1040</td>
+                         <td>1250</td>
                        </tr>
                        <tr>
-                         <td>2</td>
-                         <td>20</td>
-                         <td>395</td>
-                         <td>430</td>
-                         <td>405</td>
-                         <td>435</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>760</td>
+                         <td>4</td>
+                         <td>60</td>
+                         <td>830</td>
+                         <td>900</td>
+                         <td>880</td>
+                         <td>950</td>
+                         <td>1100</td>
+                         <td>1200</td>
+                         <td>1100</td>
+                         <td>1200</td>
+                         <td>1400</td>
                        </tr>
                        <tr>
-                         <td>2</td>
-                         <td>20</td>
-                         <td>395</td>
-                         <td>430</td>
-                         <td>405</td>
-                         <td>435</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>760</td>
+                         <td>4</td>
+                         <td>70</td>
+                         <td>940</td>
+                         <td>1025</td>
+                         <td>1000</td>
+                         <td>1080</td>
+                         <td>1260</td>
+                         <td>1350</td>
+                         <td>1260</td>
+                         <td>1350</td>
+                         <td>1600</td>
                        </tr>
                        <tr>
-                         <td>2</td>
-                         <td>20</td>
-                         <td>395</td>
-                         <td>430</td>
-                         <td>405</td>
-                         <td>435</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>760</td>
+                         <td>4</td>
+                         <td>80</td>
+                         <td>1050</td>
+                         <td>1150</td>
+                         <td>1120</td>
+                         <td>1210</td>
+                         <td>1400</td>
+                         <td>1500</td>
+                         <td>1400</td>
+                         <td>1500</td>
+                         <td>1760</td>
                        </tr>
                        <tr>
-                         <td>2</td>
-                         <td>20</td>
-                         <td>395</td>
-                         <td>430</td>
-                         <td>405</td>
-                         <td>435</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>760</td>
+                         <td>4</td>
+                         <td>90</td>
+                         <td>1150</td>
+                         <td>1260</td>
+                         <td>1240</td>
+                         <td>1340</td>
+                         <td>1550</td>
+                         <td>1650</td>
+                         <td>1550</td>
+                         <td>1650</td>
+                         <td>1950</td>
                        </tr>
                        <tr>
-                         <td>2</td>
-                         <td>20</td>
-                         <td>395</td>
-                         <td>430</td>
-                         <td>405</td>
-                         <td>435</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>760</td>
+                         <td>5</td>
+                         <td>100</td>
+                         <td>1270</td>
+                         <td>1380</td>
+                         <td>1350</td>
+                         <td>1465</td>
+                         <td>1680</td>
+                         <td>1790</td>
+                         <td>1680</td>
+                         <td>1790</td>
+                         <td>2100</td>
                        </tr>
                        <tr>
-                         <td>2</td>
-                         <td>20</td>
-                         <td>395</td>
-                         <td>430</td>
-                         <td>405</td>
-                         <td>435</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>570</td>
-                         <td>600</td>
-                         <td>760</td>
+                         <td>5</td>
+                         <td>110</td>
+                         <td>1380</td>
+                         <td>1500</td>
+                         <td>1480</td>
+                         <td>1600</td>
+                         <td>1820</td>
+                         <td>1940</td>
+                         <td>1820</td>
+                         <td>1940</td>
+                         <td>2280</td>
                        </tr>
                   </table>
                  </div>
@@ -268,10 +275,10 @@ function Tariff() {
                       <table className="table table-striped">
                         <tr>
                            <th rowSpan={2}>VEHICLE TYPE</th>
-                           <th colSpan={2}>INDICA - ALTO - LIVAWAGON R - CELERIOINDIGO - BOLT</th>
-                           <th colSpan={2}>DZIRE - ETIOS - ASPIREAMAZE - SUNNY</th>
-                           <th colSpan={2}>TAVERA - SUMOECO - BOLERO</th>
-                           <th colSpan={2}>XYLO - ENJOY - ERTIGALODGY - MARAZZO</th>
+                           <th colSpan={2}>WAGONR - INDICA - ALTO - LIVA - CELERIO - BOLT</th>
+                           <th colSpan={2}>DZIRE - ETIOS - ASPIRE - AMAZE - INDIGO - SUNNY</th>
+                           <th colSpan={2}>TAVERA - SUMO - ECO - BOLERO</th>
+                           <th colSpan={2}>XYLO - ENJOY - ERTIGA - LODGY - MARAZZO</th>
                            <th>INNOVO CRISTA</th>
                         </tr>
                         <tr>
@@ -291,11 +298,11 @@ function Tariff() {
                            <td>RS.12.00</td>
                            <td>RS.12.00</td>
                            <td>RS.13.00</td>
+                           <td>RS.14.00</td>
                            <td>RS.15.00</td>
                            <td>RS.14.00</td>
                            <td>RS.15.00</td>
-                           <td>RS.17.00</td>
-                           <td>RS.14.00</td>
+                           <td>RS.18.00</td>
                         </tr>
                     </table>
                   </div>
@@ -313,10 +320,10 @@ function Tariff() {
                      <table className="table table-striped">
                         <tr>
                              <th>HOURLY RATE</th>
-                             <th>INDICA - ALTO - LIVAWAGON R - CELERIOINDIGO - BOLT</th>
-                             <th>DZIRE - ETIOS - ASPIREAMAZE - SUNNY</th>
-                             <th>TAVERA - SUMOECO - BOLERO</th>
-                             <th>XYLO - ENJOY - ERTIGALODGY - MARAZZO</th>
+                             <th>WAGONR - INDICA - ALTO - LIVA - CELERIO - BOLT</th>
+                             <th>DZIRE - ETIOS - ASPIRE - AMAZE - SUNNY</th>
+                             <th>TAVERA - SUMO - ECO - BOLERO</th>
+                             <th>XYLO - ENJOY - ERTIGA - LODGY - MARAZZO</th>
                              <th>INNOVO CRISTA</th>
                         </tr>
                         <tr>
