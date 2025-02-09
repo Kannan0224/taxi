@@ -4,7 +4,7 @@ import './tariff.css';
 function Tariff() {
   return (
     <>
-    <section>
+         <section>
             <div className="container">
                 <div className="row multiple-row v-align-row">
                   <div className="col-lg-12 col-md-12 text-center mt-5">
@@ -85,19 +85,20 @@ function Tariff() {
                         <td>RS.3 /-<br/>(PER MIN)</td>
                         <td>RS.3 /-<br/>(PER MIN)</td>
                     </tr>
-		    <tr>
+		                <tr>
                         <td>INNOVA</td>
                         <td>RS.400 /-<br/>(4 KM)</td>
                         <td>RS.25 /-</td>
                         <td>RS.27 /-</td>
                         <td>RS.3 /-<br/>(PER MIN)</td>
                         <td>RS.3 /-<br/>(PER MIN)</td>
+                    </tr>
               </table>
             </div>
           </div>
          </div>
         </div>
-      </section>
+        </section>
          
          {/* second table data */}
 
