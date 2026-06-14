@@ -5,7 +5,7 @@ function AdminTable() {
   const [list,setList] = useState([]);
   const [loader,setLoader] = useState(true);
   useEffect(() => {
-    axios.get('https://taxi-server-bmrh.onrender.com/booking/list').then((data) => {
+    axios.get('https://call-taxi.onrender.com/booking/list').then((data) => {
         setList(data.data);
         setLoader(false)
       })
