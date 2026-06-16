@@ -12,7 +12,7 @@ function Admin() {
     setAdminTable(e.target.value)
   }
   const handleRout=()=>{
-    if(adminTable===process.env.REACT_APP_ADMIN_PASSWORD){
+    if(adminTable==="karthick@123"){
       navigate("/adminTable")
     }
   }
